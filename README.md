@@ -37,7 +37,7 @@ Aplicação de recordação de memórias, onde o usuário poderá adicionar à u
 #GitHub
 NEXT_PUBLIC_GITHUB_CLIENT_ID=""
 ```
-4. Inicie o projeto com , `npm run dev``
+4. Inicie o projeto com , `npm run dev`
 <!--
 ## Screenshots
 
