@@ -12,36 +12,32 @@
 Aplicação de recordação de memórias, onde o usuário poderá adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.
 </p>
 
+## PROJETOS RELACIONADOS
+- [SERVER - Spacetime](https://github.com/Alessandro021/server-NLW-spacetime)
+- [APP - Spacetime](https://github.com/Alessandro021/mobile-NLW-spacetime)
+
 ## Funcionalidades do server
 
-- realizar cadastro
-- lista de memorias
-- cadastro de memorias
+- Realizar cadastro
+- Lista de memorias
+- Cadastro de memorias
 
 ## Tecnologias Utilizadas
-- [NodeJs]()
 - [TypeScript]()
-- [Prisma]()
-- [Fastify]()
-- [Zod]()
+- [Tailwind]()
+- [React]()
+- [Next]()
 
 ## Como rodar o projeto
 
 1. Clone este repositório
 2. Instale as dependências com `npm install` ou `yarn`
-5. Configure as variáveis de ambiente no arquivo `.env` com as suas credenciais:
+3. Configure as variáveis de ambiente no arquivo `.env` com as suas credenciais:
 ```.env
-DATABASE_URL="file:./dev.db"
-
-#GitHub(Mobile)
-GITHUB_CLIENT_ID=xxx
-GITHUB_CLIENT_SECRET=xxx
-
-#GitHub(Mobile)
-GITHUB_CLIENT_ID=xxx
-GITHUB_CLIENT_SECRET=xxx
+#GitHub
+NEXT_PUBLIC_GITHUB_CLIENT_ID=""
 ```
-6. Inicie o projeto com , `npm run dev``
+4. Inicie o projeto com , `npm run dev``
 <!--
 ## Screenshots
 
@@ -49,10 +45,6 @@ GITHUB_CLIENT_SECRET=xxx
   <img src="" alt="" width="300">
 </p>
 -->
-
-## PROJETOS RELACIONADOS
-- [WEB - Spacetime]()
-- [APP - Spacetime]()
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
